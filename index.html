@@ -5,131 +5,99 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Claudius Art Studio</title>
 <style>
-body {
-    margin:0;
-    font-family: Arial, sans-serif;
-    background:#0d0d0d;
-    color:#f5f5f5;
-}
-header {
-    height:100vh;
-    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('images/les_magnetiques/magnetique_bleu_orange.jpg') center/cover;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:20px;
-}
-header h1 {
-    font-size:4rem;
-    margin-bottom:20px;
-    letter-spacing:3px;
-}
-header p {
-    max-width:700px;
-    line-height:1.6;
-    color:#ddd;
-}
-.btn {
-    margin-top:30px;
-    padding:14px 28px;
-    background:#b22222;
-    color:white;
-    text-decoration:none;
-    border-radius:6px;
-    transition:0.3s;
-}
-.btn:hover {
-    background:#e03a3a;
-}
-section {
-    padding:60px 8%;
-}
-h2 {
-    font-size:2rem;
-    margin-bottom:30px;
-    border-bottom:1px solid #333;
-    padding-bottom:10px;
-}
-.gallery {
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:25px;
-}
-.card {
-    background:#181818;
-    border-radius:10px;
-    overflow:hidden;
-    transition:0.3s;
-}
-.card:hover {
-    transform:scale(1.02);
-}
-.card img {
-    width:100%;
-    display:block;
-}
-.card-content {
-    padding:15px;
-}
-.card-content h3 {
-    margin-top:0;
-}
-footer {
-    text-align:center;
-    padding:30px;
-    color:#999;
-    border-top:1px solid #222;
-}
+body{margin:0;background:#0d0d0d;color:#f2f2f2;font-family:Arial,sans-serif}
+header{text-align:center;padding:60px 20px;background:#111}
+h1{font-size:42px;margin:0;color:#fff}
+p{color:#ccc}
+section{padding:40px 6%}
+h2{border-bottom:1px solid #333;padding-bottom:12px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:25px}
+.card{background:#181818;border-radius:10px;overflow:hidden;text-decoration:none;color:white}
+.card img{width:100%;height:260px;object-fit:cover;display:block}
+.card div{padding:15px}
+.card h3{margin:0 0 8px}
+.card p{margin:0;color:#aaa}
+.card:hover{transform:scale(1.02);transition:.3s}
+footer{text-align:center;padding:30px;color:#888}
 </style>
 </head>
 <body>
 
 <header>
-    <h1>Claudius Art Studio</h1>
-    <p>
-        Peintures et œuvres numériques de Claude Grand.
-        Un univers entre mémoire, matière, abstraction et vibrations colorées.
-    </p>
-
-    <a href="#galerie" class="btn">Découvrir les œuvres</a>
+<h1>Claudius Art Studio</h1>
+<p>Galerie virtuelle de Claude Grand</p>
 </header>
 
-<section id="galerie">
-    <h2>Les Magnétiques</h2>
+<section>
+<h2>Les Abstraits</h2>
 
-    <div class="gallery">
+<div class="gallery">
 
-        <div class="card">
-            <img src="images/les_magnetiques/magnetique_bleu_orange.jpg" alt="Magnétique Bleu Orange">
-            <div class="card-content">
-                <h3>Magnétique Bleu-Orange</h3>
-                <p>Acrylique sur toile — 128 x 80 cm</p>
-            </div>
-        </div>
+<a class="card" href="images/les_abstraits/amadeus.jpg" target="_blank">
+<img src="images/les_abstraits/amadeus.jpg">
+<div><h3>Amadéus</h3><p>Acrylique sur papier — 120 x 80 cm</p></div>
+</a>
 
-        <div class="card">
-            <img src="images/les_magnetiques/bleu_magnetique.jpg" alt="Bleu Magnétique">
-            <div class="card-content">
-                <h3>Bleu Magnétique</h3>
-                <p>Acrylique et matière sur toile — 80 x 120 cm</p>
-            </div>
-        </div>
+<a class="card" href="images/les_abstraits/ange_bleu.jpg" target="_blank">
+<img src="images/les_abstraits/ange_bleu.jpg">
+<div><h3>Ange bleu</h3><p>Acrylique sur toile — 130 x 90 cm</p></div>
+</a>
 
-        <div class="card">
-            <img src="images/les_magnetiques/magnetique_pulsar.jpg" alt="Magnétique Pulsar">
-            <div class="card-content">
-                <h3>Magnétique Pulsar</h3>
-                <p>Acrylique sur papier — 60 x 60 cm</p>
-            </div>
-        </div>
+<a class="card" href="images/les_abstraits/arbre_des_fees.jpg" target="_blank">
+<img src="images/les_abstraits/arbre_des_fees.jpg">
+<div><h3>Arbre des fées</h3><p>Acrylique sur toile — 130 x 90 cm</p></div>
+</a>
 
-    </div>
+<a class="card" href="images/les_abstraits/ballade1.jpg" target="_blank">
+<img src="images/les_abstraits/ballade1.jpg">
+<div><h3>Ballade 1</h3><p>Acrylique sur toile — 50 x 70 cm</p></div>
+</a>
+
+<a class="card" href="images/les_abstraits/ballade2.jpg" target="_blank">
+<img src="images/les_abstraits/ballade2.jpg">
+<div><h3>Ballade 2</h3><p>Acrylique sur toile — 50 x 70 cm</p></div>
+</a>
+
+<a class="card" href="images/les_abstraits/exclamation.jpg" target="_blank">
+<img src="images/les_abstraits/exclamation.jpg">
+<div><h3>Exclamation</h3><p>Acrylique sur toile — 75 x 110 cm</p></div>
+</a>
+
+<a class="card" href="images/les_abstraits/la_melancolie.jpg" target="_blank">
+<img src="images/les_abstraits/la_melancolie.jpg">
+<div><h3>La mélancolie</h3><p>Acrylique sur toile — 75 x 110 cm</p></div>
+</a>
+
+<a class="card" href="images/les_abstraits/melancolie2.jpg" target="_blank">
+<img src="images/les_abstraits/melancolie2.jpg">
+<div><h3>Mélancolie 2</h3><p>Acrylique sur toile — 75 x 110 cm</p></div>
+</a>
+
+<a class="card" href="images/les_abstraits/nu7.jpg" target="_blank">
+<img src="images/les_abstraits/nu7.jpg">
+<div><h3>Nu7</h3><p>Acrylique sur toile — 75 x 110 cm</p></div>
+</a>
+
+<a class="card" href="images/les_abstraits/presence_verticale.jpg" target="_blank">
+<img src="images/les_abstraits/presence_verticale.jpg">
+<div><h3>Présence verticale</h3><p>Acrylique sur toile — 75 x 110 cm</p></div>
+</a>
+
+<a class="card" href="images/les_abstraits/vivalova.jpg" target="_blank">
+<img src="images/les_abstraits/vivalova.jpg">
+<div><h3>Vivalova</h3><p>Acrylique sur toile — 80 x 120 cm</p></div>
+</a>
+
+<a class="card" href="images/les_abstraits/voxys.jpg" target="_blank">
+<img src="images/les_abstraits/voxys.jpg">
+<div><h3>Voxys</h3><p>Acrylique sur toile — 80 x 120 cm</p></div>
+</a>
+
+</div>
 </section>
 
 <footer>
-© Claudius Art Studio — Claude Grand
+© Claude Grand — Claudius Art Studio
 </footer>
 
 </body>
